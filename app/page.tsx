@@ -252,11 +252,10 @@ const toggleMusic = () => {
       className="w-28 h-28 object-contain"
     />
   ) : (
-    <img
-      src="/cat.png" // your static cat image
-      className="w-28 h-28 object-contain"
-      className="w-28 h-28 object-contain hover:scale-110 transition"
-    />
+   <img
+  src="/cat.png"
+  className="w-28 h-28 object-contain hover:scale-110"
+/>
   )}
 </div>
 
